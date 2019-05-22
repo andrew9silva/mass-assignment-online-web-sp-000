@@ -1,8 +1,4 @@
 class Person
-  attr_accessor :name, :eye_color
 
-  def initialize(name:, eye_color:)
-    @name = name
-    @eye_color = eye_color
-  end
+  attr_accessor :name, :birthday, :hair_color, :eye_color, :height, :weight, :handed, :complexion, :t_shirt_size, :wrist_size, :glove_size, :pant_length, :pant_width
 end
